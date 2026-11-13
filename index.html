@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header-content">
+            <h1>Gladys Jumwa Ngowa</h1>
+            <p>Aspiring IT Professional & Intern</p>
+            <a href="#contact" class="btn">Download CV</a>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <!-- Profile image comes first -->
+                 <div class="profile-img-placeholder">
+                    <span>Profile Image</span>
+                </div>
+                <!-- Text comes second -->
+                <div class="about-text">
+                    <p>Hello! I am a dedicated and enthusiastic university student pursuing a Diploma in Information Technology. I have a strong passion for web development, system analysis, and database management, and I am actively seeking an internship opportunity to apply my practical skills in a professional environment.</p>
+                    <br>
+                    <p><strong>Institution:</strong> Zetech University</p>
+                    <p><strong>Course:</strong> Diploma in Information Technology</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Building semantic and structured web pages.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Styling layouts, flexbox, and responsive designs.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Writing scripts and backend logic.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Management</h3>
+                    <p>Managing relational databases and SQL queries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Small Claims Court Smart Guide Portal</h3>
+                    <p>A web portal designed to assist citizens in navigating small claims court procedures efficiently.</p>
+                    <p class="tech-used"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                </div>
+                <div class="project-card">
+                    <h3>Student Record Management System</h3>
+                    <p>A desktop/web-based application built to organize and track student academic records securely.</p>
+                    <p class="tech-used"><strong>Technologies:</strong> Python, SQL</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Feel free to contact me for internship opportunities or collaborations!</p>
+                <p><strong>Email:</strong> gladys.jumwa@example.com</p>
+                <p><strong>Phone:</strong> +254 700 000 000</p>
+            </div>
+            
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Gladys Jumwa Ngowa. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
